@@ -28,7 +28,7 @@ gulp.task('uglify', function(){
 gulp.task('htmlmin', function(){
 	return gulp.src('*.html')
 	.pipe(htmlmin({collapseWhitespace: true}))
-	.pipe(gulp.dest('dist/view'));
+	.pipe(gulp.dest('dist/'));
 });
 
 gulp.task('cleanCss', function(){
@@ -38,11 +38,11 @@ gulp.task('cleanCss', function(){
 	.pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('copy', function(){
+/*gulp.task('copy', function(){
 	return gulp.src('index.html')
 	.pipe(gulp.dest('dist/'))
-});
+});*/
 
 gulp.task('default', function(callback){
-	return runSequence('clean', ['jshint', 'uglify', 'htmlmin', 'cleanCss', 'copy'], callback);
+	return runSequence('clean', ['jshint', 'uglify', 'htmlmin', 'cleanCss'], callback);
 });
