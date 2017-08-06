@@ -32,7 +32,7 @@ gulp.task('htmlmin', function(){
 });
 
 gulp.task('cleanCss', function(){
-	return gulp.src('css/*.css')
+	return gulp.src('assets/css/*.css')
 	.pipe(cleanCss())
 	.pipe(concat('all.min.css'))
 	.pipe(gulp.dest('dist/css'));
