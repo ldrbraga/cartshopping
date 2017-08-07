@@ -32,17 +32,17 @@ gulp.task('htmlmin', function(){
 });
 
 gulp.task('cleanCss', function(){
-	return gulp.src('assets/css/*.css')
+	return gulp.src('css/*.css')
 	.pipe(cleanCss())
 	.pipe(concat('all.min.css'))
 	.pipe(gulp.dest('dist/css'));
 });
 
-/*gulp.task('copy', function(){
-	return gulp.src('index.html')
-	.pipe(gulp.dest('dist/'))
-});*/
+gulp.task('copy', function(){
+	return gulp.src('img/*')
+	.pipe(gulp.dest('dist/img'));
+});
 
 gulp.task('default', function(callback){
-	return runSequence('clean', ['jshint', 'uglify', 'htmlmin', 'cleanCss'], callback);
+	return runSequence('clean', ['jshint', 'uglify', 'htmlmin', 'cleanCss', 'copy'], callback);
 });
