@@ -24,5 +24,5 @@ npm install
 gulp
 `` 
 
-4 - Abrir o arquivo `` index.html`` 
+4 - Abrir o arquivo `` dist/index.html`` 
 
