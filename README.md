@@ -10,9 +10,9 @@ Essas instruções fornecem uma cópia do projeto em funcionamento em sua máqui
 
 Diga o que o passo será
 
-`` `
+`` 
 Dê o exemplo
-`` `
+`` 
 
 E repita
 
