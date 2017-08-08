@@ -42,31 +42,35 @@
   .list .list__items__product {
     display: inline-block;
     width: 17rem;
-    margin: 3rem; }
+    margin: 3rem;
+    border: 1px solid #DDD;
+    padding: .9rem; }
   .list .list__items__product__list {
     margin: 0;
     padding: 0; }
   .list .list__items__product__img {
-    max-width: 9rem; }
+    max-width: 9rem;
+    margin-bottom: .5rem; }
   .list .list__items__product__title {
     min-height: 4.5rem;
     font-size: .9rem; }
   .list .list__items__product__qty {
     max-width: 2rem;
-    text-align: center; }
+    text-align: center;
+    margin: .5rem; }
   .list .list__items__product__buttons {
-    margin-top: 1rem; }
+    margin-top: 2rem; }
   .list .list__items__product__button {
     border: 0;
     background-color: #89072D;
     color: #FFF;
     text-transform: uppercase;
     font-weight: bold;
-    padding: .5rem; }
+    padding: .5rem;
+    margin: .5rem 0; }
   .list .list__items__product__button:hover {
     opacity: .8; }
   .list .list__items__product__total {
-    margin-top: .5rem;
     text-transform: uppercase;
     font-weight: bold; }
 

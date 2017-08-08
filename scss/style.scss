@@ -5,6 +5,7 @@ $color-cart-section: #E2EEF4;
 $list-color: #F7FAFC;
 $bg-buttons-color: #89072D;
 $container-width: 1200px;
+$border-color: #DDD;
 @mixin center {
     margin: { 
         left: auto;
@@ -70,6 +71,8 @@ $container-width: 1200px;
 		display: inline-block;
 		width: 17rem;
 		margin: 3rem;
+		border: 1px solid #DDD;
+		padding: .9rem;
 	}
 
 	.list__items__product__list{
@@ -79,6 +82,7 @@ $container-width: 1200px;
 
 	.list__items__product__img{
 		max-width: 9rem;
+		margin-bottom: .5rem;
 	}
 
 	.list__items__product__title{
@@ -89,10 +93,11 @@ $container-width: 1200px;
 	.list__items__product__qty{
 		max-width: 2rem;
 		text-align: center;
+		margin: .5rem;
 	}
 
 	.list__items__product__buttons{
-		margin-top: 1rem;	
+		margin-top: 2rem;	
 	}	
 
 	.list__items__product__button{
@@ -102,6 +107,7 @@ $container-width: 1200px;
 		text-transform: uppercase;
 		font-weight: bold;
 		padding: .5rem;
+		margin: .5rem 0;
 	}
 
 	.list__items__product__button:hover{
@@ -109,7 +115,6 @@ $container-width: 1200px;
 	}
 
 	.list__items__product__total{
-		margin-top: .5rem;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
