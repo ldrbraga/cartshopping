@@ -2,7 +2,7 @@
 
 Carrinho de compras desenvolvido em Angular, utilizando metodologia BEM, pré processador SASS e Gulp.
 
-Essas instruções fornecem uma cópia do projeto em funcionamento em sua máquina local para finais de desenvolvimento e teste. 
+Essas instruções fornecem uma cópia do projeto em funcionamento em sua máquina local.
 
 ## Instalação
 
