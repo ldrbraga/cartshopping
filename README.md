@@ -18,8 +18,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium v
 git clone https://github.com/ldrbraga/cartshopping.git && cd gitcartshopping
 `` 
 
-2 - Executar 
+2 - Executar a instalação das dependências, via Node Package Manager:
 
 `` 
 npm install 
 `` 
+
+
+3 - Rodar o o task-runner Gulp para criação da dist: 
+
+`` 
+gulp
+`` 
+
+
+4 - Abrir o arquivo `` index.html`` 
+
