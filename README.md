@@ -2,14 +2,14 @@
 
 Carrinho de compras desenvolvido em Angular, utilizando metodologia BEM, pré processador SASS e Gulp.
 
-Essas instruções fornecem uma cópia do projeto em funcionamento em sua máquina local.
+Essas instruções fornecem uma cópia do projeto em funcionamento na sua máquina local.
 
 ## Instalação
 
 1 - Fazer o clone do projeto na máquina local:
 
 `` 
-git clone https://github.com/ldrbraga/cartshopping.git && cd gitcartshopping
+git clone https://github.com/ldrbraga/cartshopping.git && cd cartshopping
 `` 
 
 2 - Executar a instalação das dependências, via Node Package Manager:
