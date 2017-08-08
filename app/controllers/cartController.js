@@ -1,4 +1,4 @@
-app.controller('cartController', function($scope, $http){
+cartShopping.controller('cartController', function($scope, $http){
 	$scope.products = [
 		{
 	        "name": "Smartphone Moto G4 Plus Colors Preto Ed. Especial 5.5\", Androidâ„¢ 6.0 Lollipop, Cam 16Mp, 32Gb",
