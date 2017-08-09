@@ -4,6 +4,14 @@ Carrinho de compras desenvolvido em Angular, utilizando metodologia BEM, pré pr
 
 Essas instruções fornecem uma cópia do projeto em funcionamento na sua máquina local.
 
+## Pré - requisitos
+
+Gulp
+
+`` 
+npm install -g gulp-cli
+`` 
+
 ## Instalação
 
 1 - Fazer o clone do projeto na máquina local:
@@ -18,7 +26,7 @@ git clone https://github.com/ldrbraga/cartshopping.git && cd cartshopping
 npm install 
 `` 
 
-3 - Rodar o o task-runner Gulp para criação da dist: 
+3 - Rodar o task-runner Gulp para criação da dist: 
 
 `` 
 gulp
