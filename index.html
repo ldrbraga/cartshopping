@@ -15,7 +15,7 @@
 				<img class="navbar__logo" src="img/logo.png" alt="Logo Intercase">
 				<div class="navbar__cart">
 					<a href="#" class="navbar__cart__link"><i class="fa fa-shopping-cart"></i></a>
-					<p class="navbar__cart__n">0</p>
+					<p class="navbar__cart__n">{{ products.length }}</p>
 				</div>
 			</div>
 		</div>
@@ -25,7 +25,7 @@
 		<div class="container">
 	        <div class="list__items">
 	        	<ul class="list__items__product__list">
-	        		<li class="list__items__product" ng-repeat="product in products">
+	        		<li class="list__items__product" ng-repeat="product in products track by $index">
 	        			<figure>
 	        				<img class="list__items__product__img" src="{{ product.image }}" alt="{{ product.name }}">
 	        				<figcaption class="list__items__product__title" ng-model="product.name"><em>{{ product.name }}</em></figcaption>

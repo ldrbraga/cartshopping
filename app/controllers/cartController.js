@@ -1,4 +1,4 @@
-cartShopping.controller('cartController', function($scope, $http){
+cartShopping.controller('cartController', ['$scope', '$http', function($scope, $http){
 	$scope.products = [
 		{
 	        "name": "Smartphone Moto G4 Plus Colors Preto Ed. Especial 5.5\", Androidâ„¢ 6.0 Lollipop, Cam 16Mp, 32Gb",
@@ -46,10 +46,8 @@ cartShopping.controller('cartController', function($scope, $http){
 		$scope.products.splice(index, 1);
 	};
 
-	/*$scope.add = function(product){
+	$scope.add = function(product){
 		$scope.products.push(product);
-	};*/
-
-	
-});
+	};	
+}]);
 

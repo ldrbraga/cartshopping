@@ -46,3 +46,7 @@ gulp.task('copy', function(){
 gulp.task('default', function(callback){
 	return runSequence('clean', ['jshint', 'uglify', 'htmlmin', 'cleanCss', 'copy'], callback);
 });
+
+gulp.task('watch', function() {
+	gulp.watch(['./app/**/*.js', './*.html'], ['default']);
+});
