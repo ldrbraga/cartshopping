@@ -26,7 +26,7 @@ git clone https://github.com/ldrbraga/cartshopping.git && cd cartshopping
 npm install 
 `` 
 
-3 - Rodar o o task-runner Gulp para criação da dist: 
+3 - Rodar o task-runner Gulp para criação da dist: 
 
 `` 
 gulp
