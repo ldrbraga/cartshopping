@@ -6,7 +6,7 @@ Essas instruções fornecem uma cópia do projeto em funcionamento na sua máqui
 
 ## Pré - requisitos
 
-### Gulp
+Gulp
 
 `` 
 npm install -g gulp-cli
